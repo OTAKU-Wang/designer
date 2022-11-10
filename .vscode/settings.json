@@ -40,5 +40,8 @@
     "javascript.validate.enable": true,
     "typescript.validate.enable": true,
     "html.format.wrapAttributes": "aligned-multiple",
-    "html.format.wrapLineLength": 240
+    "html.format.wrapLineLength": 240,
+    "i18n-ally.localesPaths": [
+        "src/assets/i18n"
+    ]
 }
