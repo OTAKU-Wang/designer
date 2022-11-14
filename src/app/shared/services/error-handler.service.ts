@@ -5,7 +5,7 @@
 import { ApplicationRef, ChangeDetectorRef, ErrorHandler, Injectable, Injector } from '@angular/core';
 import { AnalyticsService } from 'app/core/analytics/analytics.service';
 import { SentryService } from 'app/core/analytics/sentry.service';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../../environments/environment.prod';
 import { SnackBar } from '../../services/snack-bar.service';
 
 @Injectable()

@@ -13,6 +13,6 @@ export let environment: Environment = {
     production: false,
     osc_enabled: false,
     web_url: "",
-    api_url: "",
+    api_url: "https://www.truevision.ai/api/v1",
     mixpanel_id: "",
 }

@@ -9,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { Subject } from 'rxjs';
 
 import { filter, takeUntil } from 'rxjs/operators';
-import { environment } from '../environments/environment';
+import { environment } from '../environments/environment.prod';
 import { AnalyticsService } from './core/analytics/analytics.service';
 import { AppService } from './core/services/app.service';
 import { LayoutService } from './shared/services/layout.service';

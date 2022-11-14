@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 import { NavigationEnd, Router, RouterEvent } from '@angular/router';
 import { Subject } from 'rxjs';
 import { filter, takeUntil } from 'rxjs/operators';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../../environments/environment.prod';
 import { AuthService } from '../services/auth.service';
 import { Environment } from '../utils/environment';
 import { MixpanelService } from './mixpanel.service';

@@ -3,7 +3,7 @@
  */
 
 import { Mesh, MeshBasicMaterial, SphereGeometry, Vector2, Vector3 } from 'three';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../../environments/environment.prod';
 import { SceneService } from '../services/scene.service';
 
 export class Debug {
